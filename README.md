@@ -29,10 +29,10 @@ int main()
     cout<<"8 % 5 = "<<answer6<<endl;
     cout<<"8 + 4 * 5 = "<<answer7<<endl;
     cout<<"(8 + 4) * 5 = "<<answer8<<endl;
-    cout<<"Thank you for using the program!\n\n";
+    cout<<"Thank you for using the program!\n";
 
     //prompt the user to exit program
-    cout<<"\tPress any key to exit the program...\n";
-    //system("pause");
+    cout<<"\tPress 'ENTER' to exit the program...";
+    cin.get();
     return 0;
 }
